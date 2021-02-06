@@ -1,0 +1,35 @@
+---
+layout: bt_wiki
+title: AsciiDoc Code
+category: Introduction
+draft: false
+weight: 100
+aliases: /aTest/AsciiDoc-Code/
+---
+
+== Code Test
+
+[source,java]
+----
+class Hello {
+    public void test() {
+        System.out.println("Hello");    
+    }
+}
+----
+
+{{< highlight java "linenos=inline,hl_lines=8 15-17,linenostart=199" >}}
+class Hello {
+    public void test() {
+        System.out.println("Hello");    
+    }
+}
+{{< / highlight >}}
+
+{{< highlight java >}}
+class Hello {
+    public void test() {
+        System.out.println("Hello");    
+    }
+}
+{{< / highlight >}}

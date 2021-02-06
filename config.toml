@@ -37,6 +37,18 @@ version = "1.0.0"
 
 [markup]
 defaultMarkdownHandler = "blackfriday"
+  [markup.highlight]
+    anchorLineNos = false
+    codeFences = false
+    guessSyntax = false
+    hl_Lines = ""
+    lineAnchors = ""
+    lineNoStart = 1
+    lineNos = false
+    lineNumbersInTable = true
+    noClasses = true
+    style = "manni"
+    tabWidth = 2
 
 [blackfriday]
 hrefTargetBlank = false
