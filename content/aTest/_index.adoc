@@ -1,0 +1,9 @@
+---
+title: A Test
+description: this is a test
+canonical: xxx.yyy
+weight: 11
+alwaysopen: false
+---
+
+Hello test
