@@ -312,16 +312,16 @@ article section.page {
     margin-top: 3.5rem; }
   article section.page h2 {
     margin-top: 2.5rem; }
-  article section.page table {
-    width: 100%;
+  article section.page table.tableblock {
+    width:100%;
     margin-bottom: 2em;
     border-collapse: collapse;
     border-spacing: 0;
     border: 1px solid #e3e3e3; }
-    article section.page table th,
-    article section.page table td {
+    article section.page table.tableblock th,
+    article section.page table.tableblock td {
       padding: 0.25rem 0.75rem; }
-    article section.page table th {
+    article section.page table.tableblock th {
       padding: 0.5rem;
       text-transform: uppercase;
       vertical-align: middle;
@@ -330,13 +330,13 @@ article section.page {
       background: #E3E3E3;
       color: black;
       border-bottom: 2px solid #7C7C84; }
-    article section.page table td {
+    article section.page table.tableblock td {
       padding: 0.5rem;
       vertical-align: middle;
       border-bottom: 1px solid #F2F2F2;
       border: 1px solid #E3E3E3;
       color: #585860; }
-    article section.page table td:first-child code {
+    article section.page table.tableblock td:first-child code {
       background-color: transparent;
       padding: 0; }
   article section.page img {

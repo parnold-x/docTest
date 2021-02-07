@@ -164,11 +164,7 @@ textarea {
 optgroup {
   font-weight: bold; }
 
-table {
-  border-collapse: collapse;
-  border-spacing: 0;
-  table-layout: fixed;
-  width: 100%; }
+
 
 tr, td, th {
   vertical-align: middle; }

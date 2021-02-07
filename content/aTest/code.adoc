@@ -18,18 +18,10 @@ class Hello {
 }
 ----
 
-{{< highlight java "linenos=inline,hl_lines=8 15-17,linenostart=199" >}}
-class Hello {
-    public void test() {
-        System.out.println("Hello");    
-    }
+[source,dc43code]
+----
+public static void main( String args[] ) {
+    System.out.println("Foobar!"); <1>
 }
-{{< / highlight >}}
-
-{{< highlight java >}}
-class Hello {
-    public void test() {
-        System.out.println("Hello");    
-    }
-}
-{{< / highlight >}}
+----
+<1> Print something
