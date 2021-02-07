@@ -3,4 +3,4 @@ image:
 
 tasks:
   - init: 'echo serve site'
-    command: hugo serve
+    command: env PATH=$PWD/bin:$PATH hugo serve
