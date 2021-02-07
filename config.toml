@@ -4,8 +4,8 @@ DefaultContentLanguage = "en"
 title = "DC43 Documentation"
 theme = "docdock"
 # themesdir = "../.."
-pygmentsCodeFences = true
-pygmentsStyle = "monokailight"
+#pygmentsCodeFences = true
+#pygmentsStyle = "monokailight"
 
 defaultContentLanguage = "en"
 defaultContentLanguageInSubdir = false
@@ -26,8 +26,10 @@ disableSearch = false # default is false
 disableNavChevron = false # set true to hide next/prev chevron, default is false
 highlightClientSide = false # set true to use highlight.pack.js instead of the default hugo chroma highlighter
 menushortcutsnewtab = false # set true to open shortcuts links to a new tab/window
-enableGitInfo = true
-googleAnalytics = "GTM-P8VJ87"
+enableGitInfo = false
+highlightjs = true
+highlightjsstyle = "github"
+
 
 # Content variables
 company_name = "IILS mbH"
@@ -37,6 +39,8 @@ version = "1.0.0"
 
 [markup]
 defaultMarkdownHandler = "blackfriday"
+    [markup.highlight]
+        codeFences = false  
 [markup.asciidocext]
     #extensions = ["asciidoctor-diagram"]
     workingFolderCurrent = true
