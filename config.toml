@@ -38,7 +38,7 @@ version = "1.0.0"
 [markup]
 defaultMarkdownHandler = "blackfriday"
 [markup.asciidocext]
-    extensions = ["asciidoctor-diagram"]
+    #extensions = ["asciidoctor-diagram"]
     workingFolderCurrent = true
     trace = true
     [markup.asciidocext.attributes]
