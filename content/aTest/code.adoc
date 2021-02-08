@@ -20,8 +20,13 @@ class Hello {
 
 [source,dc43code]
 ----
-public static void main( String args[] ) {
-    System.out.println("Foobar!"); <1>
+op test(a:String) : String {
+    G+[(n1:|ClassA)]
+}
+
+class Hello {
+    public void test() {
+        System.out.println("Hello");    
+    }
 }
 ----
-<1> Print something
