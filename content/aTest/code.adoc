@@ -21,7 +21,7 @@ class Hello {
 [source,dc43code]
 ----
 op test(a:String) : String {
-    G+[(n1:|ClassA)]
+    G+[(n1:|ClassA)] //<1>
 }
 
 class Hello {
@@ -30,3 +30,4 @@ class Hello {
     }
 }
 ----
+<1> The <<Create>> part is defined inside the `G+[]` statement.
