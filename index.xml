@@ -2,25 +2,25 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>DC43 Documentation Center on DC43 Documentation</title>
-    <link>//localhost:1313/</link>
+    <link>/</link>
     <description>Recent content in DC43 Documentation Center on DC43 Documentation</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="//localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>AsciiDoc Code</title>
-      <link>//localhost:1313/atest/code/</link>
+      <link>/atest/code/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>//localhost:1313/atest/code/</guid>
+      <guid>/atest/code/</guid>
       <description>Code Test class Hello { public void test() { System.out.println(&amp;#34;Hello&amp;#34;); } }   op test(a:String) : String { G+[(n1:|ClassA)] (1) } class Hello { public void test() { System.out.println(&amp;#34;Hello&amp;#34;); } }     1 The [Create] part is defined inside the G+[] statement.      </description>
     </item>
     
     <item>
       <title>AsciiDoc Test</title>
-      <link>//localhost:1313/atest/example_adoc/</link>
+      <link>/atest/example_adoc/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>//localhost:1313/atest/example_adoc/</guid>
+      <guid>/atest/example_adoc/</guid>
       <description>The Dangers of Wolpertingers Don’t worry about gumberoos or splintercats. Something far more fearsome plagues the days, nights, and inbetweens. Wolpertingers.
    Origins Wolpertingers are ravenous beasts.
  DC43 is a free online AsciiDoc editor.
@@ -32,10 +32,10 @@
     
     <item>
       <title>Classes Language Specification</title>
-      <link>//localhost:1313/doc/classes/</link>
+      <link>/doc/classes/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>//localhost:1313/doc/classes/</guid>
+      <guid>/doc/classes/</guid>
       <description>Basics A classes package is specified in a  .classes file. A package has a name and contains classes, interfaces, enums, and datatypes.
    Package The package is defined at the beginning of the file with the following
  package test.hello   The name is somehow important because it defines the namespace of all containing elements. For this package a Class ClassA would have the full qualified name test.</description>
@@ -43,10 +43,10 @@
     
     <item>
       <title>What Is DC43?</title>
-      <link>//localhost:1313/about/what-is-dc43/</link>
+      <link>/about/what-is-dc43/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>//localhost:1313/about/what-is-dc43/</guid>
+      <guid>/about/what-is-dc43/</guid>
       <description> DC43 is an leading engineering automation framework
 DC43 allows organizations an effortless transition to public cloud and Cloud-Native architecture by enabling them to automate their existing infrastructure alongside cloud native and distributed edge resources. DC43 also allows users to manage different orchestration and automation domains as part of one common CI/CD pipeline.
 Key Features Everything as a Code </description>
@@ -54,10 +54,10 @@ Key Features Everything as a Code </description>
     
     <item>
       <title>AsciiDoc SmokeTest</title>
-      <link>//localhost:1313/atest/smoketest/</link>
+      <link>/atest/smoketest/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>//localhost:1313/atest/smoketest/</guid>
+      <guid>/atest/smoketest/</guid>
       <description>Dan Allen &amp;lt;thedoc@asciidoctor.org&amp;gt;
    emoji :plus: :spade:
   html +
@@ -68,10 +68,10 @@ Key Features Everything as a Code </description>
     
     <item>
       <title>How this Document is Organized</title>
-      <link>//localhost:1313/about/doc-info/</link>
+      <link>/about/doc-info/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>//localhost:1313/about/doc-info/</guid>
+      <guid>/about/doc-info/</guid>
       <description>The documentation center has been designed to assist you to easily navigate to the information that you require.
 Documentation for DC43 Core Products:
 A table of contents for the entire Documentation Center appears on the left of all pages in the site. You can use the table of contents to drill down into a document to the content that you require.</description>
@@ -79,28 +79,28 @@ A table of contents for the entire Documentation Center appears on the left of a
     
     <item>
       <title></title>
-      <link>//localhost:1313/_footer/</link>
+      <link>/_footer/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>//localhost:1313/_footer/</guid>
+      <guid>/_footer/</guid>
       <description>© IILS mbH document.write(new Date().getFullYear()), All Rights Reserved.</description>
     </item>
     
     <item>
       <title></title>
-      <link>//localhost:1313/_header/</link>
+      <link>/_header/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>//localhost:1313/_header/</guid>
+      <guid>/_header/</guid>
       <description></description>
     </item>
     
     <item>
       <title></title>
-      <link>//localhost:1313/atest/include.asciidoc/</link>
+      <link>/atest/include.asciidoc/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>//localhost:1313/atest/include.asciidoc/</guid>
+      <guid>/atest/include.asciidoc/</guid>
       <description>Optional Title This is an example single-paragraph note.         Optional Title This is an example single-paragraph note.         Tip.         Important.         Warning.         Caution.     Optional Title *Listing* Block Use: code or file listings   Optional Title Sidebar Block</description>
     </item>
     

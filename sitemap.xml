@@ -3,64 +3,64 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>//localhost:1313/about/</loc>
+    <loc>/about/</loc>
   </url>
   
   <url>
-    <loc>//localhost:1313/atest/</loc>
+    <loc>/atest/</loc>
   </url>
   
   <url>
-    <loc>//localhost:1313/doc/</loc>
+    <loc>/doc/</loc>
   </url>
   
   <url>
-    <loc>//localhost:1313/atest/code/</loc>
+    <loc>/atest/code/</loc>
   </url>
   
   <url>
-    <loc>//localhost:1313/atest/example_adoc/</loc>
+    <loc>/atest/example_adoc/</loc>
   </url>
   
   <url>
-    <loc>//localhost:1313/doc/classes/</loc>
+    <loc>/doc/classes/</loc>
   </url>
   
   <url>
-    <loc>//localhost:1313/about/what-is-dc43/</loc>
+    <loc>/about/what-is-dc43/</loc>
   </url>
   
   <url>
-    <loc>//localhost:1313/atest/smoketest/</loc>
+    <loc>/atest/smoketest/</loc>
   </url>
   
   <url>
-    <loc>//localhost:1313/about/doc-info/</loc>
+    <loc>/about/doc-info/</loc>
   </url>
   
   <url>
-    <loc>//localhost:1313/_footer/</loc>
+    <loc>/_footer/</loc>
   </url>
   
   <url>
-    <loc>//localhost:1313/_header/</loc>
+    <loc>/_header/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>//localhost:1313/atest/include.asciidoc/</loc>
+    <loc>/atest/include.asciidoc/</loc>
   </url>
   
   <url>
-    <loc>//localhost:1313/categories/</loc>
+    <loc>/categories/</loc>
   </url>
   
   <url>
-    <loc>//localhost:1313/</loc>
+    <loc>/</loc>
   </url>
   
   <url>
-    <loc>//localhost:1313/tags/</loc>
+    <loc>/tags/</loc>
   </url>
   
 </urlset>

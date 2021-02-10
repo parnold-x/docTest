@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Doc on DC43 Documentation</title>
-    <link>//localhost:1313/doc/</link>
+    <link>/doc/</link>
     <description>Recent content in Doc on DC43 Documentation</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="//localhost:1313/doc/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language><atom:link href="/doc/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Classes Language Specification</title>
-      <link>//localhost:1313/doc/classes/</link>
+      <link>/doc/classes/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>//localhost:1313/doc/classes/</guid>
+      <guid>/doc/classes/</guid>
       <description>Basics A classes package is specified in a  .classes file. A package has a name and contains classes, interfaces, enums, and datatypes.
    Package The package is defined at the beginning of the file with the following
  package test.hello   The name is somehow important because it defines the namespace of all containing elements. For this package a Class ClassA would have the full qualified name test.</description>
