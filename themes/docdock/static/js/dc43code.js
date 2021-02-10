@@ -8,7 +8,7 @@ begin:`\\b0[xX]((${n})\\.?|(${n})?\\.(${n}))[pP][+-]?([0-9](_*[0-9])*)[fFdD]?\\b
 },{begin:"\\b(0|[1-9](_*[0-9])*)[lL]?\\b"},{begin:`\\b0[xX](${n})[lL]?\\b`},{
 begin:"\\b0(_*[0-7])*[lL]?\\b"},{begin:"\\b0[bB][01](_*[01])*[lL]?\\b"}],
 relevance:0};return e=>{
-var n="op opposite equations conditions true false null this it null abstract annotation boolean case catch char class create def default do double enum else extends extension final finally float for if implements import int interface long new override package private protected return short static super switch throw throws try typeof type val var void while G+ G- G?",s={
+var n="op opposite equations conditions activeIf true false null this it null abstract annotation boolean case catch char class create def default do double enum else extends extension final finally float for if implements import int interface long new override package private protected return short static super switch throw throws try typeof type val var void while G+ G- G?",s={
 className:"meta",begin:"@[\xc0-\u02b8a-zA-Z_$][\xc0-\u02b8a-zA-Z_$0-9]*",
 contains:[{begin:/\(/,end:/\)/,contains:["self"]}]};const r=a;return{
 name:"DC43Code",aliases:["jsp"],keywords:n,illegal:/<\/|#/,

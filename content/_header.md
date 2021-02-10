@@ -1,1 +1,1 @@
-[![DC43]( /images/dc43_128.png )](https://iils.de/dc43)
+[![DC43]( /images/documentation_header_white.png )](https://iils.de/dc43)
