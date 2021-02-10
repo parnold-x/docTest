@@ -1,0 +1,1074 @@
+<!DOCTYPE html>
+<html>
+  <head><script src="/livereload.js?port=1313&amp;mindelay=10&amp;v=2" data-no-instant defer></script>
+          <meta charset="utf-8">
+      
+      <link rel="canonical" href="//localhost:1313/doc/classes/">
+      
+      
+      <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+      <meta name="generator" content="Hugo 0.79.1" />
+      <title>Classes Language Specification | DC43 Documentation</title>
+      <link rel="shortcut icon" href="../../images/favicon.png" type="image/x-icon" />
+      <link href="../../css/font-awesome.min.css" rel="stylesheet">
+      <link href="../../css/custom.css" rel="stylesheet">
+      <link href="../../css/nucleus.css" rel="stylesheet">
+      <link href="../../theme-flex/style.css" rel="stylesheet">
+      <link href="../../css/bootstrap.min.css" rel="stylesheet">
+      <link href="../../css/syntax.min.css" rel="stylesheet">
+      <script src="../../js/highlight.min.js"></script>
+      <script src="../../js/dc43code.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+      
+      <script src="../../js/jquery-2.x.min.js"></script>
+      <script type="text/javascript">
+            var baseurl = "\/\/localhost:1313\/";
+      </script>
+      
+
+
+  </head>
+  <body data-url="../../doc/classes/">
+    
+<header>
+  <div class="logo">
+    
+	
+  
+    <p><a href="https://iils.de/dc43"><img src="../../images/documentation_header_white.png" alt="DC43" /></a></p>
+
+  
+
+  </div>
+  <div class="menu">
+    <p>
+    <select onchange="
+        var newVersion = this.options[this.selectedIndex].value;
+        window.location = '/' + newVersion + '\/doc\/classes\/';
+    ">
+        <option value="latest">1.0.0 (Latest)</option>
+        <option value="0.8.9">0.8.9</option>
+        <option value="0.7.8">0.7.8</option>
+    </select>
+</p>
+
+  </div>
+  <div class="burger"><a href="javascript:void(0);" style="font-size:15px;">&#9776;</a></div>
+    <nav class="shortcuts">
+            <li class="" role="">
+                <a href="https://iils.de/contact"  rel="noopener">
+                  <i class='fa fa-phone-square'></i> <label>Support</label>
+                </a>
+            </li>
+            <li class="" role="">
+                <a href="https://iils.de/dc43/download"  rel="noopener">
+                  <i class='fa fa-cloud-download'></i> <label>Download</label>
+                </a>
+            </li>
+            <li class="" role="">
+                <a href="mailto:docs@iils.de?subject=DC43%20Documentation%20Feedback"  rel="noopener">
+                  <i class='fa fa-paper-plane'></i> <label>Feedback</label>
+                </a>
+            </li>
+    </nav>
+</header>
+<article>
+  <aside>
+    <ul class="menu">
+          <li data-nav-id="/" class="dd-item">
+          <a href="../../">
+            <i class="fa fa-fw fa-home"></i>
+          </a>
+          </li>
+    <li data-nav-id="/about/" class="dd-item haschildren
+        ">
+      <div>
+      <a href="../../about/">About DC43</a><i class="fa fa-angle-right fa-lg category-icon"></i><i class="fa fa-circle-thin read-icon"></i>
+      </div>
+        <ul>
+      <li data-nav-id="/about/what-is-dc43/" class="dd-item">
+        <div>
+          <a href="../../about/what-is-dc43/">
+            What Is DC43?
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+      <li data-nav-id="/about/doc-info/" class="dd-item">
+        <div>
+          <a href="../../about/doc-info/">
+            How this Document is Organized
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+        </ul>
+    </li>
+    <li data-nav-id="/atest/" class="dd-item haschildren
+        ">
+      <div>
+      <a href="../../atest/">A Test</a><i class="fa fa-angle-right fa-lg category-icon"></i><i class="fa fa-circle-thin read-icon"></i>
+      </div>
+        <ul>
+      <li data-nav-id="/atest/code/" class="dd-item">
+        <div>
+          <a href="../../atest/code/">
+            AsciiDoc Code
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+      <li data-nav-id="/atest/example_adoc/" class="dd-item">
+        <div>
+          <a href="../../atest/example_adoc/">
+            AsciiDoc Test
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+      <li data-nav-id="/atest/smoketest/" class="dd-item">
+        <div>
+          <a href="../../atest/smoketest/">
+            AsciiDoc SmokeTest
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+      <li data-nav-id="/atest/include.asciidoc/" class="dd-item">
+        <div>
+          <a href="../../atest/include.asciidoc/">
+            
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+        </ul>
+    </li>
+    <li data-nav-id="/doc/" class="dd-item parent haschildren
+        ">
+      <div>
+      <a href="../../doc/">Doc</a>
+            <i class="fa fa-angle-down fa-lg category-icon"></i><i class="fa fa-circle-thin read-icon"></i>
+      </div>
+        <ul>
+      <li data-nav-id="/doc/classes/" class="dd-item active">
+        <div>
+          <a href="../../doc/classes/">
+            Classes Language Specification
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+        </ul>
+    </li>
+
+
+
+
+    </ul>
+    <section>
+    </section>
+  </aside>
+  <section class="page">
+    
+    
+    
+      <div class="searchbackground">
+          <div>
+            <div class="searchbox">
+              <input data-search-input id="search-by" type="text" placeholder="Search...">
+            </div>
+            <script type="text/javascript" src="../../js/lunr.min.js"></script>
+            <script type="text/javascript" src="../../js/auto-complete.js"></script>
+            <link href="../../css/auto-complete.css" rel="stylesheet">
+            <script type="text/javascript">
+              
+                  var baseurl = "\/\/localhost:1313\/";
+              
+            </script>
+            <script type="text/javascript" src="../../js/search.js"></script>
+          </div>
+
+      </div>
+    
+
+    <h1>Classes Language Specification</h1>
+
+    <div class="nav-select">
+      <center>
+        <select onchange="javascript:location.href = this.value;">
+          
+    <option value="//localhost:1313/about/" >
+   About DC43</option>
+    <option value="//localhost:1313/atest/" >
+   A Test</option>
+    <option value="//localhost:1313/doc/" >
+   Doc</option> 
+      <option value="//localhost:1313/doc/classes/"  selected>- Classes Language Specification</option>
+  
+
+
+
+        </select>
+      </center>
+    </div>
+
+    <div class="chevrons">
+      <div id="navigation">
+<a class="nav nav-prev" href="../../doc/" title="Doc"> <i class="fa fa-chevron-left"></i><label>Doc</label></a>
+    <a class="nav nav-next" href="../../about/" title="About DC43" style="margin-right: 0px;"><label>About DC43</label><i class="fa fa-chevron-right"></i></a></div>
+    </div>
+
+    
+
+   
+    
+
+
+
+
+
+
+
+
+<nav id="toc" data-toggle="toc">
+  
+  <h4 class="text-muted">Page Contents</h4>
+  <ul class="nav">
+    
+      
+      
+
+      
+      
+
+      
+      <li>
+        <a href="#_basics">Basics</a>
+      
+    
+      
+      
+
+      
+      
+
+      
+        
+        
+
+          
+
+          
+
+          
+            </li>
+          
+
+          <li>
+            <a href="#_package">Package</a>
+
+          
+      
+    
+      
+      
+
+      
+      
+
+      
+        
+        
+
+          
+
+          
+
+          
+            </li>
+          
+
+          <li>
+            <a href="#_class">Class</a>
+
+          
+      
+    
+      
+      
+
+      
+      
+
+      
+        
+        
+
+          
+            
+              <ul class="nav">
+            
+          
+
+          
+
+          
+
+          <li>
+            <a href="#_attribute">Attribute</a>
+
+          
+      
+    
+      
+      
+
+      
+      
+
+      
+        
+        
+
+          
+
+          
+
+          
+            </li>
+          
+
+          <li>
+            <a href="#_reference">Reference</a>
+
+          
+      
+    
+      
+      
+
+      
+      
+
+      
+        
+        
+
+          
+
+          
+
+          
+            </li>
+          
+
+          <li>
+            <a href="#_operation">Operation</a>
+
+          
+      
+    
+      
+      
+
+      
+      
+
+      
+        
+        
+
+          
+
+          
+
+          
+            </li>
+          
+
+          <li>
+            <a href="#_equations">Equations</a>
+
+          
+      
+    
+      
+      
+
+      
+      
+
+      
+        
+        
+
+          
+
+          
+
+          
+            </li>
+          
+
+          <li>
+            <a href="#_conditions">Conditions</a>
+
+          
+      
+    
+      
+      
+
+      
+      
+
+      
+        
+        
+
+          
+
+          
+
+          
+            </li>
+          
+
+          <li>
+            <a href="#DC43Classes-Multiplicity">Multiplicity</a>
+
+          
+      
+    
+      
+      
+
+      
+      
+
+      
+        
+        
+
+          
+
+          
+
+          
+            </li>
+          
+
+          <li>
+            <a href="#_derived_attributes">Derived Attributes</a>
+
+          
+      
+    
+      
+      
+
+      
+      
+
+      
+        
+        
+
+          
+
+          
+            
+              </li></ul></li>
+            
+          
+
+          
+
+          <li>
+            <a href="#_interface">Interface</a>
+
+          
+      
+    
+      
+      
+
+      
+      
+
+      
+        
+        
+
+          
+
+          
+
+          
+            </li>
+          
+
+          <li>
+            <a href="#_enum">Enum</a>
+
+          
+      
+    
+      
+      
+
+      
+      
+
+      
+        
+        
+
+          
+
+          
+
+          
+            </li>
+          
+
+          <li>
+            <a href="#_library_example">Library example</a>
+
+          
+      
+    
+      
+      
+
+      
+      
+
+      
+        
+        
+
+          
+
+          
+
+          
+            </li>
+          
+
+          <li>
+            <a href="#_advanced">Advanced</a>
+
+          
+      
+    
+      
+      
+
+      
+      
+
+      
+        
+        
+
+          
+            
+              <ul class="nav">
+            
+          
+
+          
+
+          
+
+          <li>
+            <a href="#_names">Names</a>
+
+          
+      
+    
+      
+      
+
+      
+      
+
+      
+        
+        
+
+          
+
+          
+
+          
+            </li>
+          
+
+          <li>
+            <a href="#_enum_literals">Enum literals</a>
+
+          
+      
+    
+      
+      
+
+      
+      
+
+      
+        
+        
+
+          
+
+          
+
+          
+            </li>
+          
+
+          <li>
+            <a href="#_datatype">Datatype</a>
+
+          
+            
+          
+      
+    
+
+    
+    
+    
+      </li></ul></li>
+    
+
+  </ul>
+</nav>
+
+
+
+    
+    <div class="sect1">
+<h2 id="_basics"><a class="anchor" href="#_basics"></a><a class="link" href="#_basics">Basics</a></h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>A classes <code>package</code> is specified in a <span class="image"><img src="../../images/icons/Classes.png" alt="Classes"/></span> <code>.classes</code> file.
+A <code>package</code> has a name and contains classes, interfaces, enums, and datatypes.</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_package"><a class="anchor" href="#_package"></a><a class="link" href="#_package">Package</a></h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>The package is defined at the beginning of the file with the following</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlightjs highlight"><code class="language-dc43code hljs" data-lang="dc43code">package test.hello</code></pre>
+</div>
+</div>
+<div class="paragraph">
+<p>The name is somehow important because it defines the namespace of all containing elements.
+For this package a Class <code>ClassA</code> would have the full qualified name <code>test.hello.ClassA</code>
+When using this class e.g. inside a <strong>G+[]</strong> create statement. Either the full qualified name has to be
+specified or a import statement imports the Class to be referenced by the simple class name.</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlightjs highlight"><code class="language-dc43code hljs" data-lang="dc43code">import test.hello.ClassB
+...
+G+[test.hello.ClassA]
+G+[ClassB]</code></pre>
+</div>
+</div>
+<div class="paragraph">
+<p>Wildcard imports are also possible. A <code>import test.hello.*</code> would import all elements inside this package.</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_class"><a class="anchor" href="#_class"></a><a class="link" href="#_class">Class</a></h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>A class is defined with:</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlightjs highlight"><code class="language-dc43code hljs" data-lang="dc43code">class ClassName {
+}</code></pre>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_attribute"><a class="anchor" href="#_attribute"></a><a class="link" href="#_attribute">Attribute</a></h3>
+<div class="paragraph">
+<p>Classes can contain attributes that hold values. As example we define an attribute of type <code>String</code> with the name <code>desc</code></p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlightjs highlight"><code class="language-dc43code hljs" data-lang="dc43code">desc : String</code></pre>
+</div>
+</div>
+<div class="paragraph">
+<p>After the type a multiplicity can be set. For the example here we define a multi-valued attribute
+of the type String. See the <a href="#DC43Classes-Multiplicity">multiplicity</a> chapter for detailed information.</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlightjs highlight"><code class="language-dc43code hljs" data-lang="dc43code">desc : String []</code></pre>
+</div>
+</div>
+<div class="paragraph">
+<p>A optional default value can also be defined.</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlightjs highlight"><code class="language-dc43code hljs" data-lang="dc43code">desc : String = &#34;hello&#34;</code></pre>
+</div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_reference"><a class="anchor" href="#_reference"></a><a class="link" href="#_reference">Reference</a></h3>
+<div class="paragraph">
+<p>A reference defines a relationship between classifiers. It is defined with</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlightjs highlight"><code class="language-dc43code hljs" data-lang="dc43code">ClassifierName : referenceName</code></pre>
+</div>
+</div>
+<div class="paragraph">
+<p>After the ClassifierName a multiplicity can be defined. See the <a href="#DC43Classes-Multiplicity">multiplicity</a> chapter for detailed information.</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlightjs highlight"><code class="language-dc43code hljs" data-lang="dc43code">ClassifierName [2..*] : referenceName</code></pre>
+</div>
+</div>
+<div class="paragraph">
+<p>If you want to define a bi-directional reference that is navigable in both direction you can use the keyword <code>opposite</code>.</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlightjs highlight"><code class="language-dc43code hljs" data-lang="dc43code">ClassifierName : referenceName opposite otherReferenceName</code></pre>
+</div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_operation"><a class="anchor" href="#_operation"></a><a class="link" href="#_operation">Operation</a></h3>
+<div class="paragraph">
+<p>A operation can be defined to specify behavior of a class. Inside the body of the operation you can use the DC43Code syntax.</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlightjs highlight"><code class="language-dc43code hljs" data-lang="dc43code">op operationName() {
+    // body of the operation
+}</code></pre>
+</div>
+</div>
+<div class="paragraph">
+<p>Between the <code>()</code> brackets parameters can be defined the same as attributes</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlightjs highlight"><code class="language-dc43code hljs" data-lang="dc43code">op operationName(par1 : String, par2 : Double [*]) { }</code></pre>
+</div>
+</div>
+<div class="paragraph">
+<p>The return type is defined after the <code>()</code> brackets. If non is given it is assumed that no return type is defined (<code>void</code>).</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlightjs highlight"><code class="language-dc43code hljs" data-lang="dc43code">op operationName() : String {
+    return &#34;hello&#34;
+}</code></pre>
+</div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_equations"><a class="anchor" href="#_equations"></a><a class="link" href="#_equations">Equations</a></h3>
+<div class="paragraph">
+<p>Mathematical Equations can be defined inside a equation block.</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlightjs highlight"><code class="language-dc43code hljs" data-lang="dc43code">equations {
+    attr1 == attr2 + 2
+}</code></pre>
+</div>
+</div>
+<div class="paragraph">
+<p>TODO write more here</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlightjs highlight"><code class="language-dc43code hljs" data-lang="dc43code">    attr1 == attr2 + 2 activeIf attr3 &gt; 3</code></pre>
+</div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_conditions"><a class="anchor" href="#_conditions"></a><a class="link" href="#_conditions">Conditions</a></h3>
+<div class="paragraph">
+<p>Conditions for a class can be specified inside a conditions block. These conditions are checked in a validation step.</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlightjs highlight"><code class="language-dc43code hljs" data-lang="dc43code">conditions {
+    attr1 &gt; 0
+}</code></pre>
+</div>
+</div>
+<div class="paragraph">
+<p>Optionally you can specify a message that is shown if the condition is evaluated to false instead of a standard message.</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlightjs highlight"><code class="language-dc43code hljs" data-lang="dc43code">conditions {
+    attr1 &gt; 0 message = &#34;The attribute attr1 must be greater than zero&#34;
+}</code></pre>
+</div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="DC43Classes-Multiplicity"><a class="anchor" href="#DC43Classes-Multiplicity"></a><a class="link" href="#DC43Classes-Multiplicity">Multiplicity</a></h3>
+<div class="paragraph">
+<p>A multiplicity is defined between <code>[]</code> brackets. It can define the multiplicity of attributes, references and parameters.
+No multiplicity defined is the same as a <code>[0..1]</code> multiplicity. So the single-value can be either not set or set.
+A <code>[]</code> multiplicity is the short-hand for <code>[0..<strong>]</strong></code><strong> or <code>[</code></strong><code>]</code>. This defines a multi-value which can hold any amount of values.
+Furthermore you can also specify the lower or upper bound. E.g. <code>[2..4]</code>, the only valid amount of values would be between 2 and 4.</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_derived_attributes"><a class="anchor" href="#_derived_attributes"></a><a class="link" href="#_derived_attributes">Derived Attributes</a></h3>
+<div class="paragraph">
+<p>A derived attribute is not stored instead it is calculated. E.g.</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlightjs highlight"><code class="language-dc43code hljs" data-lang="dc43code">derived lastName : String get {
+    val index  = name.lastIndexOf(&#39; &#39;)
+    return if (index != -1) name.substring(index + 1) else name
+}</code></pre>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_interface"><a class="anchor" href="#_interface"></a><a class="link" href="#_interface">Interface</a></h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>For an interface everything stated for class also applies. Though you can’t create nodes of interfaces.</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_enum"><a class="anchor" href="#_enum"></a><a class="link" href="#_enum">Enum</a></h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>A enum is short for <a href="https://en.wikipedia.org/wiki/Enumerated_type">Enumeration</a>  and is defined with</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlightjs highlight"><code class="language-dc43code hljs" data-lang="dc43code">enum EnumName {
+}</code></pre>
+</div>
+</div>
+<div class="paragraph">
+<p>The enum literals are recommended to be defined with uppercase.</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlightjs highlight"><code class="language-dc43code hljs" data-lang="dc43code">enum Cardsuit { CLUBS, DIAMONDS, SPADES, HEARTS }</code></pre>
+</div>
+</div>
+<div class="paragraph">
+<p>If an attribute of the type Cardsuit is defined, only these literals can be assigned to it.</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_library_example"><a class="anchor" href="#_library_example"></a><a class="link" href="#_library_example">Library example</a></h2>
+<div class="sectionbody">
+<div class="listingblock">
+<div class="content">
+<pre class="highlightjs highlight"><code class="language-dc43code hljs" data-lang="dc43code">package test
+
+class Library {
+     name : String = &#34;Test&#34;
+     pages : Integer
+     Book bestBook
+     Book[10..*] books opposite library
+
+     op getBook(title:String) : Book {
+          for (Book book : books){
+               if (title == book.title) return book
+          }
+          return null
+     }
+     // same behavior as getBook but more compact
+     op getBook2(searchTitle:String) : Book {
+          return books.findFirst[title == searchTitle]
+     }
+
+}
+
+class Book {
+     height : Unit[mm]
+     width : Unit[mm]
+     copyright : Date
+
+     Library library opposite books
+
+     equations {
+      height == 2 + library.pages
+     }
+     conditions {
+      height &gt; 4
+     }
+}
+
+enum BookCategory {
+     MYSTERY
+     SCIENCE_FICTION
+     BIOGRAPHY
+}
+
+// makes the java type java.util.Date available
+type Date wraps java.util.Date</code></pre>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_advanced"><a class="anchor" href="#_advanced"></a><a class="link" href="#_advanced">Advanced</a></h2>
+<div class="sectionbody">
+<div class="sect2">
+<h3 id="_names"><a class="anchor" href="#_names"></a><a class="link" href="#_names">Names</a></h3>
+<div class="paragraph">
+<p>If a name should be the same as some reserved keyword, you can escape the name with a <code>^</code>.
+E.g. if a attribute should be named <code>id</code>:</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlightjs highlight"><code class="language-dc43code hljs" data-lang="dc43code">^id : String</code></pre>
+</div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_enum_literals"><a class="anchor" href="#_enum_literals"></a><a class="link" href="#_enum_literals">Enum literals</a></h3>
+<div class="paragraph">
+<p>If you want to specify the integer values for the enum:</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlightjs highlight"><code class="language-dc43code hljs" data-lang="dc43code">enum BookCategory {
+   Mystery = 0
+   ScienceFiction = 1
+   Biography = 2
+}</code></pre>
+</div>
+</div>
+<div class="paragraph">
+<p>If you want to specify the literal values for the enum:</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlightjs highlight"><code class="language-dc43code hljs" data-lang="dc43code">enum BookCategory {
+   Mystery as &#34;M&#34;
+   ScienceFiction as &#34;S&#34;
+   Biography as &#34;B&#34;
+}</code></pre>
+</div>
+</div>
+<div class="paragraph">
+<p>If you want to specify both the integer value and the literal values for the enum:</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlightjs highlight"><code class="language-dc43code hljs" data-lang="dc43code">enum BookCategory {
+   Mystery as &#34;M&#34; = 0
+   ScienceFiction as &#34;S&#34; = 1
+   Biography as &#34;B&#34; = 2
+}</code></pre>
+</div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_datatype"><a class="anchor" href="#_datatype"></a><a class="link" href="#_datatype">Datatype</a></h3>
+<div class="paragraph">
+<p>You can use any Java Class as attribute type after importing it with following syntax.</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlightjs highlight"><code class="language-dc43code hljs" data-lang="dc43code">type Date wraps java.util.Date</code></pre>
+</div>
+</div>
+<div class="paragraph">
+<p>If a graph is saved it must be serialized so it must be defined how this happens.
+If you don’t need the attribute to be serialized you can specifiy the &#39;transient&#39; keyword before the attribute.
+Otherwise you need to specify the create and convert methods.</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlightjs highlight"><code class="language-dc43code hljs" data-lang="dc43code">type Date wraps java.util.Date
+create {
+    try {
+        if (it != null) new SimpleDateFormat(&#34;yyyy-MM-dd&#34;).parse(it)
+    } catch (ParserException ex) {
+        throw new RuntimeException(ex)
+    }
+}
+convert {
+    if(it != null) new SimpleDateFormat(&#34;yyyy-MM-dd&#34;).format(it)
+}</code></pre>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+
+    
+    
+  </section>
+</article>
+
+<footer>
+
+<div class="footline">
+    
+
+    
+
+  
+    
+  </div>
+
+
+	<div>
+
+
+  
+    <p>© IILS mbH <script>document.write(new Date().getFullYear())</script>, All Rights Reserved.</p>
+
+  
+
+
+
+	</div>
+</footer>
+
+<script src="../../js/clipboard.min.js"></script>
+
+<link href="../../css/featherlight.min.css" rel="stylesheet">
+<script src="../../js/featherlight.min.js"></script>
+
+
+
+<script src="../../theme-flex/script.js"></script>
+
+
+    
+    
+
+    
+  </body>
+</html>

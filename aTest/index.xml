@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>A Test on DC43 Documentation</title>
+    <link>//localhost:1313/atest/</link>
+    <description>Recent content in A Test on DC43 Documentation</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="//localhost:1313/atest/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>AsciiDoc Code</title>
+      <link>//localhost:1313/atest/code/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/atest/code/</guid>
+      <description>Code Test class Hello { public void test() { System.out.println(&amp;#34;Hello&amp;#34;); } }   op test(a:String) : String { G+[(n1:|ClassA)] (1) } class Hello { public void test() { System.out.println(&amp;#34;Hello&amp;#34;); } }     1 The [Create] part is defined inside the G+[] statement.      </description>
+    </item>
+    
+    <item>
+      <title>AsciiDoc Test</title>
+      <link>//localhost:1313/atest/example_adoc/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/atest/example_adoc/</guid>
+      <description>The Dangers of Wolpertingers Don’t worry about gumberoos or splintercats. Something far more fearsome plagues the days, nights, and inbetweens. Wolpertingers.
+   Origins Wolpertingers are ravenous beasts.
+ DC43 is a free online AsciiDoc editor.
+   Just type AsciiDoc source text into the left pane,
+  …​and the live preview appears in the right pane!
+   What’s AsciiDoc? Link to about
+ AsciiDoc is a human-readable text document format for writing notes, documentation, articles, books, ebooks, slideshows, web pages, man pages and blogs, and more.</description>
+    </item>
+    
+    <item>
+      <title>AsciiDoc SmokeTest</title>
+      <link>//localhost:1313/atest/smoketest/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/atest/smoketest/</guid>
+      <description>Dan Allen &amp;lt;thedoc@asciidoctor.org&amp;gt;
+   emoji :plus: :spade:
+  html +
+   This is a demonstration of asciidoctor-ruby. And this is the preamble of this document.
+ Purpose This document exercises many of the features of AsciiDoc to test the asciidoctor-ruby implementation.
+       If you want the output to look familiar, copy (or link) the AsciiDoc stylesheet, asciidoc.css, to the output directory.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>//localhost:1313/atest/include.asciidoc/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/atest/include.asciidoc/</guid>
+      <description>Optional Title This is an example single-paragraph note.         Optional Title This is an example single-paragraph note.         Tip.         Important.         Warning.         Caution.     Optional Title *Listing* Block Use: code or file listings   Optional Title Sidebar Block</description>
+    </item>
+    
+  </channel>
+</rss>

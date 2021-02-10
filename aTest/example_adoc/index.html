@@ -1,0 +1,505 @@
+<!DOCTYPE html>
+<html>
+  <head><script src="/livereload.js?port=1313&amp;mindelay=10&amp;v=2" data-no-instant defer></script>
+          <meta charset="utf-8">
+      
+      <link rel="canonical" href="//localhost:1313/atest/example_adoc/">
+      
+      
+      <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+      <meta name="generator" content="Hugo 0.79.1" />
+      <title>AsciiDoc Test | DC43 Documentation</title>
+      <link rel="shortcut icon" href="../../images/favicon.png" type="image/x-icon" />
+      <link href="../../css/font-awesome.min.css" rel="stylesheet">
+      <link href="../../css/custom.css" rel="stylesheet">
+      <link href="../../css/nucleus.css" rel="stylesheet">
+      <link href="../../theme-flex/style.css" rel="stylesheet">
+      <link href="../../css/bootstrap.min.css" rel="stylesheet">
+      <link href="../../css/syntax.min.css" rel="stylesheet">
+      <script src="../../js/highlight.min.js"></script>
+      <script src="../../js/dc43code.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+      
+      <script src="../../js/jquery-2.x.min.js"></script>
+      <script type="text/javascript">
+            var baseurl = "\/\/localhost:1313\/";
+      </script>
+      
+
+
+  </head>
+  <body data-url="../../atest/example_adoc/">
+    
+<header>
+  <div class="logo">
+    
+	
+  
+    <p><a href="https://iils.de/dc43"><img src="../../images/documentation_header_white.png" alt="DC43" /></a></p>
+
+  
+
+  </div>
+  <div class="menu">
+    <p>
+    <select onchange="
+        var newVersion = this.options[this.selectedIndex].value;
+        window.location = '/' + newVersion + '\/atest\/example_adoc\/';
+    ">
+        <option value="latest">1.0.0 (Latest)</option>
+        <option value="0.8.9">0.8.9</option>
+        <option value="0.7.8">0.7.8</option>
+    </select>
+</p>
+
+  </div>
+  <div class="burger"><a href="javascript:void(0);" style="font-size:15px;">&#9776;</a></div>
+    <nav class="shortcuts">
+            <li class="" role="">
+                <a href="https://iils.de/contact"  rel="noopener">
+                  <i class='fa fa-phone-square'></i> <label>Support</label>
+                </a>
+            </li>
+            <li class="" role="">
+                <a href="https://iils.de/dc43/download"  rel="noopener">
+                  <i class='fa fa-cloud-download'></i> <label>Download</label>
+                </a>
+            </li>
+            <li class="" role="">
+                <a href="mailto:docs@iils.de?subject=DC43%20Documentation%20Feedback"  rel="noopener">
+                  <i class='fa fa-paper-plane'></i> <label>Feedback</label>
+                </a>
+            </li>
+    </nav>
+</header>
+<article>
+  <aside>
+    <ul class="menu">
+          <li data-nav-id="/" class="dd-item">
+          <a href="../../">
+            <i class="fa fa-fw fa-home"></i>
+          </a>
+          </li>
+    <li data-nav-id="/about/" class="dd-item haschildren
+        ">
+      <div>
+      <a href="../../about/">About DC43</a><i class="fa fa-angle-right fa-lg category-icon"></i><i class="fa fa-circle-thin read-icon"></i>
+      </div>
+        <ul>
+      <li data-nav-id="/about/what-is-dc43/" class="dd-item">
+        <div>
+          <a href="../../about/what-is-dc43/">
+            What Is DC43?
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+      <li data-nav-id="/about/doc-info/" class="dd-item">
+        <div>
+          <a href="../../about/doc-info/">
+            How this Document is Organized
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+        </ul>
+    </li>
+    <li data-nav-id="/atest/" class="dd-item parent haschildren
+        ">
+      <div>
+      <a href="../../atest/">A Test</a>
+            <i class="fa fa-angle-down fa-lg category-icon"></i><i class="fa fa-circle-thin read-icon"></i>
+      </div>
+        <ul>
+      <li data-nav-id="/atest/code/" class="dd-item">
+        <div>
+          <a href="../../atest/code/">
+            AsciiDoc Code
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+      <li data-nav-id="/atest/example_adoc/" class="dd-item active">
+        <div>
+          <a href="../../atest/example_adoc/">
+            AsciiDoc Test
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+      <li data-nav-id="/atest/smoketest/" class="dd-item">
+        <div>
+          <a href="../../atest/smoketest/">
+            AsciiDoc SmokeTest
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+      <li data-nav-id="/atest/include.asciidoc/" class="dd-item">
+        <div>
+          <a href="../../atest/include.asciidoc/">
+            
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+        </ul>
+    </li>
+    <li data-nav-id="/doc/" class="dd-item haschildren
+        ">
+      <div>
+      <a href="../../doc/">Doc</a><i class="fa fa-angle-right fa-lg category-icon"></i><i class="fa fa-circle-thin read-icon"></i>
+      </div>
+        <ul>
+      <li data-nav-id="/doc/classes/" class="dd-item">
+        <div>
+          <a href="../../doc/classes/">
+            Classes Language Specification
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+        </ul>
+    </li>
+
+
+
+
+    </ul>
+    <section>
+    </section>
+  </aside>
+  <section class="page">
+    
+    
+    
+      <div class="searchbackground">
+          <div>
+            <div class="searchbox">
+              <input data-search-input id="search-by" type="text" placeholder="Search...">
+            </div>
+            <script type="text/javascript" src="../../js/lunr.min.js"></script>
+            <script type="text/javascript" src="../../js/auto-complete.js"></script>
+            <link href="../../css/auto-complete.css" rel="stylesheet">
+            <script type="text/javascript">
+              
+                  var baseurl = "\/\/localhost:1313\/";
+              
+            </script>
+            <script type="text/javascript" src="../../js/search.js"></script>
+          </div>
+
+      </div>
+    
+
+    <h1>AsciiDoc Test</h1>
+
+    <div class="nav-select">
+      <center>
+        <select onchange="javascript:location.href = this.value;">
+          
+    <option value="//localhost:1313/about/" >
+   About DC43</option>
+    <option value="//localhost:1313/atest/" >
+   A Test</option> 
+      <option value="//localhost:1313/atest/code/" >- AsciiDoc Code</option>
+      <option value="//localhost:1313/atest/example_adoc/"  selected>- AsciiDoc Test</option>
+      <option value="//localhost:1313/atest/smoketest/" >- AsciiDoc SmokeTest</option>
+      <option value="//localhost:1313/atest/include.asciidoc/" >- </option>
+  
+    <option value="//localhost:1313/doc/" >
+   Doc</option>
+
+
+
+        </select>
+      </center>
+    </div>
+
+    <div class="chevrons">
+      <div id="navigation">
+<a class="nav nav-prev" href="../../atest/code/" title="AsciiDoc Code"> <i class="fa fa-chevron-left"></i><label>AsciiDoc Code</label></a>
+    <a class="nav nav-next" href="../../atest/smoketest/" title="AsciiDoc SmokeTest" style="margin-right: 0px;"><label>AsciiDoc SmokeTest</label><i class="fa fa-chevron-right"></i></a></div>
+    </div>
+
+    
+
+   
+    
+
+
+
+
+
+
+
+
+
+    
+    <div class="sect1">
+<h2 id="_the_dangers_of_wolpertingers"><a class="anchor" href="#_the_dangers_of_wolpertingers"></a><a class="link" href="#_the_dangers_of_wolpertingers">The Dangers of Wolpertingers</a></h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>Don’t worry about gumberoos or splintercats.
+Something far more fearsome plagues the days, nights, and inbetweens.
+Wolpertingers.</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_origins"><a class="anchor" href="#_origins"></a><a class="link" href="#_origins">Origins</a></h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>Wolpertingers are <a href="https://en.wikipedia.org/wiki/Wolpertinger">ravenous beasts</a>.</p>
+</div>
+<div class="paragraph">
+<p>DC43 is a <strong>free online <a href="http://www.methods.co.nz/asciidoc/" target="_blank" rel="noopener">AsciiDoc</a>
+editor</strong>.</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>Just type AsciiDoc source text into the <strong>left</strong> pane,</p>
+</li>
+<li>
+<p>…​and the live preview appears in the <strong>right</strong> pane!</p>
+</li>
+</ul>
+</div>
+<div class="sect2">
+<h3 id="_whats_asciidoc"><a class="anchor" href="#_whats_asciidoc"></a><a class="link" href="#_whats_asciidoc">What’s AsciiDoc?</a></h3>
+<div class="paragraph">
+<p><a href="../../about/what-is-dc43/">Link to about</a></p>
+</div>
+<div class="paragraph">
+<p>AsciiDoc is a human-readable text document format for writing notes,
+documentation, articles, books, ebooks, slideshows, web pages, man pages and
+blogs, and more. AsciiDoc files can be translated to many formats including
+HTML, PDF, EPUB, and man page.</p>
+</div>
+<div class="paragraph">
+<p>To learn more, visit the AsciiDoc home page at
+<a href="http://www.methods.co.nz/asciidoc/" class="bare" target="_blank" rel="noopener">http://www.methods.co.nz/asciidoc/</a>.</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_about_asciidoclive"><a class="anchor" href="#_about_asciidoclive"></a><a class="link" href="#_about_asciidoclive">About AsciiDocLIVE</a></h3>
+<div class="paragraph">
+<p>AsciiDocLIVE is currently in <strong>beta</strong> stage. This means there are likely a <em>lot</em>
+of bugs, and even more ways to make it better.</p>
+</div>
+<div class="paragraph">
+<p>If you have any questions, suggestions or other feedback, please
+feel free to
+<a href="https://github.com/jichu4n/asciidoclive/issues/new" target="_blank" rel="noopener">create an issue on <i class="fa fa-github"></i> GitHub</a>.
+Hope
+to hear from you soon!</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="cheat-sheet"><a class="anchor" href="#cheat-sheet"></a><a class="link" href="#cheat-sheet">AsciiDoc Mini Cheat Sheet</a></h3>
+<div class="paragraph">
+<p>To help you get started, here’re some snippets from the
+<a href="http://powerman.name/doc/asciidoc" target="_blank" rel="noopener">AsciiDoc Cheet Sheet</a>. Feel free to poke
+around :)</p>
+</div>
+<div class="sect3">
+<h4 id="_text_styles"><a class="anchor" href="#_text_styles"></a><a class="link" href="#_text_styles">Text Styles</a></h4>
+<div class="ulist">
+<ul>
+<li>
+<p>normal, <em>italic</em>, <strong>bold</strong>, mono.</p>
+</li>
+<li>
+<p>``double quoted&#39;&#39;, `single quoted&#39;.</p>
+</li>
+<li>
+<p>normal, <sup>super</sup>, <sub>sub</sub>.</p>
+</li>
+<li>
+<p><code>passthru <strong>bold</strong></code></p>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_tables"><a class="anchor" href="#_tables"></a><a class="link" href="#_tables">Tables</a></h4>
+<table class="tableblock frame-all grid-all stretch">
+<caption class="title">Table 1. An example table</caption>
+<colgroup>
+<col style="width: 33.3333%;"/>
+<col style="width: 33.3333%;"/>
+<col style="width: 33.3334%;"/>
+</colgroup>
+<thead>
+<tr>
+<th class="tableblock halign-left valign-top">Col 1</th>
+<th class="tableblock halign-left valign-top">Col 2</th>
+<th class="tableblock halign-left valign-top">Col 3</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">1</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Item 1</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">a</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">2</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Item 2</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">b</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">3</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Item 3</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">c</p></td>
+</tr>
+</tbody>
+<tfoot>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">6</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Three items</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">d</p></td>
+</tr>
+</tfoot>
+</table>
+</div>
+<div class="sect3">
+<h4 id="_lists"><a class="anchor" href="#_lists"></a><a class="link" href="#_lists">Lists</a></h4>
+<div class="ulist">
+<ul>
+<li>
+<p>Q: How did the programmer die in the shower?
+A: He read the shampoo instructions:</p>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>Lather, rinse.</p>
+</li>
+<li>
+<p>Repeat.</p>
+</li>
+</ol>
+</div>
+</li>
+<li>
+<p>There are only 10 kinds of people in this world:</p>
+<div class="ulist">
+<ul>
+<li>
+<p>Those who understand binary.</p>
+</li>
+<li>
+<p>Those who don’t.</p>
+</li>
+</ul>
+</div>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_misc"><a class="anchor" href="#_misc"></a><a class="link" href="#_misc">Misc</a></h4>
+<div class="ulist">
+<ul>
+<li>
+<p>Code listings:</p>
+<div class="listingblock">
+<div class="content">
+<pre class="highlightjs highlight"><code class="language-python hljs" data-lang="python">#!/usr/bin/env python
+import antigravity
+try:
+  antigravity.fly()
+except FlytimeError as e:
+  # um...not sure what to do now.
+  pass</code></pre>
+</div>
+</div>
+</li>
+<li>
+<p>Quotes:</p>
+<div class="quoteblock">
+<blockquote>
+It was the best of times, it was the worst of times, it was the age of wisdom,
+it was the age of foolishness…​
+</blockquote>
+<div class="attribution">
+— Charles Dickens<br/>
+<cite>A Tale of Two Cities</cite>
+</div>
+</div>
+</li>
+<li>
+<p>Links:</p>
+<div class="ulist">
+<ul>
+<li>
+<p><a href="http://asciidoclive.com/" target="_blank" rel="noopener">AsciiDocLIVE</a> is awesome!</p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p>Images:</p>
+<div class="paragraph">
+<p><span class="image"><img src="https://i.imgur.com/AEkqoRn.jpg" alt="not bad." width="128" height="128"/></span></p>
+</div>
+</li>
+<li>
+<p>Videos:</p>
+<div class="videoblock">
+<div class="content">
+<iframe src="https://www.youtube.com/embed/th_H1gixMEE?rel=0" frameborder="0" allowfullscreen=""></iframe>
+</div>
+</div>
+</li>
+<li>
+<p>Pass-through: </p><div align="center"><b>pass through content</b></div><p></p>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+
+    
+    
+  </section>
+</article>
+
+<footer>
+
+<div class="footline">
+    
+
+    
+
+  
+    
+  </div>
+
+
+	<div>
+
+
+  
+    <p>© IILS mbH <script>document.write(new Date().getFullYear())</script>, All Rights Reserved.</p>
+
+  
+
+
+
+	</div>
+</footer>
+
+<script src="../../js/clipboard.min.js"></script>
+
+<link href="../../css/featherlight.min.css" rel="stylesheet">
+<script src="../../js/featherlight.min.js"></script>
+
+
+
+<script src="../../theme-flex/script.js"></script>
+
+
+    
+    
+
+    
+  </body>
+</html>

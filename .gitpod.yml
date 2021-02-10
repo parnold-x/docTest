@@ -1,8 +1,0 @@
-image:
-  file: .gitpod.Dockerfile
-
-tasks:
-  - init: 'echo serve site'
-    command: env PATH=$PWD/bin:$PATH hugo serve --destination ./public
-ports:
-  - port: 1313
