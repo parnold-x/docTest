@@ -2,25 +2,25 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>A Test on DC43 Documentation</title>
-    <link>/atest/</link>
+    <link>https://parnold-x.github.io/docTest/atest/</link>
     <description>Recent content in A Test on DC43 Documentation</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="/atest/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language><atom:link href="https://parnold-x.github.io/docTest/atest/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>AsciiDoc Code</title>
-      <link>/atest/code/</link>
+      <link>https://parnold-x.github.io/docTest/atest/code/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/atest/code/</guid>
+      <guid>https://parnold-x.github.io/docTest/atest/code/</guid>
       <description>Code Test class Hello { public void test() { System.out.println(&amp;#34;Hello&amp;#34;); } }   op test(a:String) : String { G+[(n1:|ClassA)] (1) } class Hello { public void test() { System.out.println(&amp;#34;Hello&amp;#34;); } }     1 The [Create] part is defined inside the G+[] statement.      </description>
     </item>
     
     <item>
       <title>AsciiDoc Test</title>
-      <link>/atest/example_adoc/</link>
+      <link>https://parnold-x.github.io/docTest/atest/example_adoc/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/atest/example_adoc/</guid>
+      <guid>https://parnold-x.github.io/docTest/atest/example_adoc/</guid>
       <description>The Dangers of Wolpertingers Don’t worry about gumberoos or splintercats. Something far more fearsome plagues the days, nights, and inbetweens. Wolpertingers.
    Origins Wolpertingers are ravenous beasts.
  DC43 is a free online AsciiDoc editor.
@@ -32,10 +32,10 @@
     
     <item>
       <title>AsciiDoc SmokeTest</title>
-      <link>/atest/smoketest/</link>
+      <link>https://parnold-x.github.io/docTest/atest/smoketest/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/atest/smoketest/</guid>
+      <guid>https://parnold-x.github.io/docTest/atest/smoketest/</guid>
       <description>Dan Allen &amp;lt;thedoc@asciidoctor.org&amp;gt;
    emoji :plus: :spade:
   html +
@@ -46,10 +46,10 @@
     
     <item>
       <title></title>
-      <link>/atest/include.asciidoc/</link>
+      <link>https://parnold-x.github.io/docTest/atest/include.asciidoc/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/atest/include.asciidoc/</guid>
+      <guid>https://parnold-x.github.io/docTest/atest/include.asciidoc/</guid>
       <description>Optional Title This is an example single-paragraph note.         Optional Title This is an example single-paragraph note.         Tip.         Important.         Warning.         Caution.     Optional Title *Listing* Block Use: code or file listings   Optional Title Sidebar Block</description>
     </item>
     

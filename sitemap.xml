@@ -3,64 +3,64 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>/about/</loc>
+    <loc>https://parnold-x.github.io/docTest/about/</loc>
   </url>
   
   <url>
-    <loc>/atest/</loc>
+    <loc>https://parnold-x.github.io/docTest/atest/</loc>
   </url>
   
   <url>
-    <loc>/doc/</loc>
+    <loc>https://parnold-x.github.io/docTest/doc/</loc>
   </url>
   
   <url>
-    <loc>/atest/code/</loc>
+    <loc>https://parnold-x.github.io/docTest/atest/code/</loc>
   </url>
   
   <url>
-    <loc>/atest/example_adoc/</loc>
+    <loc>https://parnold-x.github.io/docTest/atest/example_adoc/</loc>
   </url>
   
   <url>
-    <loc>/doc/classes/</loc>
+    <loc>https://parnold-x.github.io/docTest/doc/classes/</loc>
   </url>
   
   <url>
-    <loc>/about/what-is-dc43/</loc>
+    <loc>https://parnold-x.github.io/docTest/about/what-is-dc43/</loc>
   </url>
   
   <url>
-    <loc>/atest/smoketest/</loc>
+    <loc>https://parnold-x.github.io/docTest/atest/smoketest/</loc>
   </url>
   
   <url>
-    <loc>/about/doc-info/</loc>
+    <loc>https://parnold-x.github.io/docTest/about/doc-info/</loc>
   </url>
   
   <url>
-    <loc>/_footer/</loc>
+    <loc>https://parnold-x.github.io/docTest/_footer/</loc>
   </url>
   
   <url>
-    <loc>/_header/</loc>
+    <loc>https://parnold-x.github.io/docTest/_header/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/atest/include.asciidoc/</loc>
+    <loc>https://parnold-x.github.io/docTest/atest/include.asciidoc/</loc>
   </url>
   
   <url>
-    <loc>/categories/</loc>
+    <loc>https://parnold-x.github.io/docTest/categories/</loc>
   </url>
   
   <url>
-    <loc>/</loc>
+    <loc>https://parnold-x.github.io/docTest/</loc>
   </url>
   
   <url>
-    <loc>/tags/</loc>
+    <loc>https://parnold-x.github.io/docTest/tags/</loc>
   </url>
   
 </urlset>
