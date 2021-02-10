@@ -4,7 +4,7 @@ title: AsciiDoc SmokeTest
 category: Introduction
 draft: false
 weight: 101
-aliases: /aTest/AsciiDoc-SmokeTest/
+aliases: /atest/AsciiDoc-SmokeTest/
 ---
 
 = Asciidoctor Demo

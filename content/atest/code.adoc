@@ -4,7 +4,7 @@ title: AsciiDoc Code
 category: Introduction
 draft: false
 weight: 100
-aliases: /aTest/AsciiDoc-Code/
+aliases: /atest/AsciiDoc-Code/
 ---
 
 == Code Test

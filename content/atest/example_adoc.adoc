@@ -4,7 +4,7 @@ title: AsciiDoc Test
 category: Introduction
 draft: false
 weight: 100
-aliases: /aTest/AsciiDoc-Example/
+aliases: /atest/AsciiDoc-Example/
 ---
 
 == The Dangers of Wolpertingers
